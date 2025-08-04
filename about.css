@@ -1,0 +1,92 @@
+body {
+      background: linear-gradient(135deg, #ffe29f 0%, #ffa99f 100%);
+      font-family: 'Open Sans', Arial, sans-serif;
+      margin: 0;
+      color: #333;
+    }
+    .navbar {
+      background: rgba(255, 255, 255, 0.85);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      padding: 1rem 0;
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+      font-size: 1.2rem;
+    }
+    .navbar a {
+      color: #ff7e5f;
+      text-decoration: none;
+      margin: 0 1.2rem;
+      transition: color 0.2s;
+      padding: 0.3rem 0.7rem;
+      border-radius: 20px;
+    }
+    .navbar a:hover, .navbar a:focus {
+      background: #ff7e5f;
+      color: #fff;
+    }
+    .about-section {
+      padding: 3rem 0 2rem 0;
+    }
+    .container {
+      background: rgba(255,255,255,0.95);
+      border-radius: 18px;
+      box-shadow: 0 4px 24px rgba(255,126,95,0.12);
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 2.5rem 2rem;
+    }
+    .section-title {
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+      color: #ff7e5f;
+      margin-bottom: 1.2rem;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    h3 {
+      color: #f76a1c;
+      margin-top: 2rem;
+      font-size: 1.3rem;
+    }
+    ul {
+      margin: 1rem 0 1.5rem 1.5rem;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 0.7rem;
+      font-size: 1.05rem;
+      position: relative;
+      padding-left: 1.2em;
+    }
+    ul li:before {
+      content: "☀️";
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 1em;
+    }
+    p {
+      line-height: 1.7;
+      margin-bottom: 1.1rem;
+      font-size: 1.08rem;
+    }
+    strong {
+      color: #f76a1c;
+      font-size: 1.1em;
+    }
+    em {
+      color: #ff7e5f;
+      font-style: italic;
+      font-weight: 600;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.2rem 0.7rem;
+      }
+      .section-title {
+        font-size: 2rem;
+      }
+      .navbar {
+        font-size: 1rem;
+      }
+    }
