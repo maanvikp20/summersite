@@ -66,13 +66,19 @@ images/: Folder containing event and gallery images
 
 ---
 
-## Example Event Card
-```html
-<div class="event-card fade-in">
-  <img src="images/skyzone.jpg" alt="Jumping at SkyZone trampoline park" />
-  <h3 class="event-title">SkyZone Adventures</h3>
-  <p class="event-date">June 5, 2025</p>
-  <p class="event-description">
-    Kicked off the summer bouncing around at SkyZone with friends — lots of flips, laughs, and competition.
-  </p>
-</div>
+## Reflection
+
+This project was both a **creative** and **technical** journey.
+
+### Challenges Faced
+- Ensuring **consistent design** across multiple pages while keeping each one unique.
+- Balancing **aesthetic appeal** with **mobile responsiveness**.
+- Managing **shared CSS** so updates wouldn’t break individual layouts.
+
+### Lessons Learned
+- **Modular CSS** makes it much easier to maintain and scale a website.
+- Thoughtful **animations** can enhance user experience without distracting from the content.
+- **Planning the structure first** helps maintain a consistent theme throughout the site.
+
+### Final Thoughts
+Overall, this project sharpened my **front-end development skills**, strengthened my **design sense**, and gave me a fun, meaningful way to preserve summer memories.
